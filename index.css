@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient( to bottom right, #88777D, white);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#rubrik{
+    background-color:#88777D;
+    margin: auto;
+    font-size: 30px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    max-height: 100px;
+    
+}
+
+h1{
+
+    margin:auto;
+
+}
+
+.button{
+    
+    width: 250px;
+    text-align: center;
+    font-size:30px;
+    margin-top: 40px;   
+    margin-bottom: 50px;
+    margin-left: 25%;
+    display:inline-block;
+    border: #787073 5px solid; 
+    border-radius: 10px;
+
+}
+
+
+.button:hover{
+    width: 260px;
+
+ 
+
+
+}
+
+
+a:visited, a:link {
+    color:black;
+    text-decoration: none;
+}
+
+
+#picture{
+    height: 600px;
+    display:inline;
+    margin-top: 40px;
+    margin-right: 400px;
+    float:inline-end;
+    border-radius: 10px;
+    border: #787073 5px solid;
+
+}
+
+
+#bottom{
+    background-color:#88777D;
+    font-size: 30px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    max-height: 50px;
+    height:675px;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    
+
+}
+
+#stuff{
+
+        margin-top:60px
+
+
+}
+
+
+#contact{
+    float:right;
+    position: absolute;
+    margin-left: 50px;
+    margin-top:25px;
+    font-size:25px;
+    text-align: center;
+    
+    
+
+
+}
+
+#line{
+    float:right;
+    position: absolute;
+        height: 5px;
+        width: 200px;
+        background-color:#787073;
+    margin-top: 100px;
+    margin-left: 25px;
+
+}
+
+
+.contactpic{
+    height: 20px;
+    margin-right: 5px;
+    margin-top:20px;
+    
+
+}
+.contactbutton:hover{
+    margin-left: 10px;
+
+}

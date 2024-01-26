@@ -1,0 +1,226 @@
+body{
+    background-image: linear-gradient( to bottom left, #88777D, white);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+#rubrik{
+    background-color:#88777D;
+    margin: auto;
+    font-size: 30px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    max-height: 100px;
+    top: 0;
+    
+}
+
+h1{
+
+    margin:auto;
+
+}
+
+
+#bottom{
+    background-color:#88777D;
+    font-size: 30px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    max-height: 50px;
+    height:675px;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    
+
+}
+
+#side{
+    margin-top:60px;
+    height:580px;
+    width: 200px;
+    margin-right: 10px;
+    background-image: linear-gradient( to bottom left, #88777D,rgba(0, 0, 0, 0));   
+    border: #787073 5px solid; 
+    border-left: 0px;
+    float: inline-start;
+    border-radius: 10px;
+    
+}
+
+
+#homebutton{
+    background-image: url(home.png);
+    background-size: cover;
+    height:50px;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 75px;
+
+
+}
+
+#homebutton:hover{
+    background-image: url(light.png);
+    background-size: cover;
+
+
+}
+
+
+
+.button{
+    
+    width: 100px;
+    text-align: center;
+    font-size:15px;
+    margin-top: 60px;   
+    margin-left: 50px;
+    display:inline-block;
+    border: #787073 5px solid;
+    border-radius: 10px;
+}
+
+
+.button:hover{
+    width: 110px;
+}
+a:visited, a:link {
+    color:black;
+    text-decoration: none;
+}
+
+
+#interests{
+    background-image: linear-gradient( to bottom, #88777D,rgba(0, 0, 0, 0));   
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 300px;
+    height: 400px;
+    border: #787073 5px solid;
+    float: inline-start;
+    border-radius: 10px;
+
+}
+
+#list{
+    text-align: center;
+    font-size: 30px;
+}
+
+li{
+
+    font-size:25px;
+    margin-top: 50px;
+    margin-left: 25%;
+
+}
+
+#left{
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin-left: 875px;
+    margin-top: 300px;
+    position: absolute;
+
+
+}
+
+
+#left:hover, #right:hover{
+    cursor:pointer
+}
+
+#right{
+        width: 64px;
+        height: 64px;
+        float: right;
+        margin-left:  1510px;
+        margin-top: 300px;
+        position: absolute;
+
+    
+    
+}
+
+.secondimage{
+    background-image: url("berserk.png");
+    
+    } 
+
+.firstimage{
+    background-image: url("sekiro.png");
+
+}
+
+.thirdimage{
+    background-image: url(ac6.png);
+
+}
+
+.fourthimage{
+    background-image: url(bleach.png)
+
+}
+
+
+#images{
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: #787073 8px solid;
+    display:inline-block;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+
+      
+
+    
+    .arrow{
+        width: 64px;
+        height: 64px;
+    }
+    
+
+    #left:active{
+
+        margin-left: 870px;
+
+    }
+
+    #right:active{
+
+        margin-left: 1515px;
+
+    }
+
+    #picturetext{
+        font-size: 25px;
+        float:right;
+        margin-top: 70px;
+        margin-left:1020px;
+        position: absolute;
+    
+    
+    }
+    #line{
+        float:right;
+        position: absolute;
+            height: 5px;
+            width: 150px;
+            background-color:#787073;
+        margin-top: 20px;
+        margin-left: 25px;
+    
+    }
